@@ -17,7 +17,7 @@ const i18nProvider = polyglotI18nProvider(
   (locale) => messages[locale],
   "pt-br"
 );
-const dataProvider = jsonServerProvider("https://jsonplaceholder.typicode.com");
+const dataProvider = jsonServerProvider("https://mockend.com/org/desafio-asap");
 
 const App = () => (
   <Admin
