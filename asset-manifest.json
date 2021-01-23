@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/desafio-asap/static/css/main.6dea0f05.chunk.css",
+    "main.js": "/desafio-asap/static/js/main.361588ac.chunk.js",
+    "main.js.map": "/desafio-asap/static/js/main.361588ac.chunk.js.map",
+    "runtime-main.js": "/desafio-asap/static/js/runtime-main.2c55a451.js",
+    "runtime-main.js.map": "/desafio-asap/static/js/runtime-main.2c55a451.js.map",
+    "static/js/2.19ede3fa.chunk.js": "/desafio-asap/static/js/2.19ede3fa.chunk.js",
+    "static/js/2.19ede3fa.chunk.js.map": "/desafio-asap/static/js/2.19ede3fa.chunk.js.map",
+    "static/js/3.8f0f3467.chunk.js": "/desafio-asap/static/js/3.8f0f3467.chunk.js",
+    "static/js/3.8f0f3467.chunk.js.map": "/desafio-asap/static/js/3.8f0f3467.chunk.js.map",
+    "index.html": "/desafio-asap/index.html",
+    "static/css/main.6dea0f05.chunk.css.map": "/desafio-asap/static/css/main.6dea0f05.chunk.css.map",
+    "static/js/2.19ede3fa.chunk.js.LICENSE.txt": "/desafio-asap/static/js/2.19ede3fa.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2c55a451.js",
+    "static/js/2.19ede3fa.chunk.js",
+    "static/css/main.6dea0f05.chunk.css",
+    "static/js/main.361588ac.chunk.js"
+  ]
+}
