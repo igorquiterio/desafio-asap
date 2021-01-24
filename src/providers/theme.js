@@ -17,10 +17,19 @@ export const theme = createMuiTheme({
     },
   },
   sidebar: {
-    width: 240,
+    width: 200,
     closedWidth: 55,
   },
   overrides: {
+    raInput: {
+      marginRight: "5px",
+    },
+    RaFormInput: {
+      input: {
+        width: "100%",
+        maxWidth: "610px",
+      },
+    },
     MuiFilledInput: {
       root: {
         backgroundColor: "rgba(0, 0, 0, 0.00)",
@@ -29,15 +38,12 @@ export const theme = createMuiTheme({
         },
         borderTopLeftRadius: "10px",
         borderTopRightRadius: "10px",
+        width: "100%",
       },
     },
     MuiButtonBase: {
       root: {
         "&:hover:active::after": {
-          // recreate a static ripple color
-          // use the currentColor to make it work both for outlined and contained buttons
-          // but to dim the background without dimming the text,
-          // put another element on top with a limited opacity
           content: '""',
           display: "block",
           width: "100%",
