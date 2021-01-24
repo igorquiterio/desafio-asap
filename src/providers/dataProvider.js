@@ -12,10 +12,11 @@ export const dataProvider = fakeDataProvider({
       signo: "Sagitário",
       mae: "Laís Gabriela Adriana",
       pai: "Nelson Carlos Eduardo Roberto Ramos",
-      email: "priscilaaparecidaramos_@yahoo.com.com.br",
+      email: "priscilaaparecidaramos_@yahoo.com.br",
       senha: "GdQNgba4oo",
       cep: "59123-595",
       endereco: "Rua Professor Maria Enaídes",
+      complemento: "",
       numero: 102,
       bairro: "Pajuçara",
       cidade: "Natal",
@@ -26,6 +27,7 @@ export const dataProvider = fakeDataProvider({
       peso: 58,
       tipo_sanguineo: "AB+",
       cor: "roxo",
+      id: 1,
     },
     {
       nome: "Enrico Isaac Thales Monteiro",
@@ -41,6 +43,7 @@ export const dataProvider = fakeDataProvider({
       senha: "CuujszLN25",
       cep: "29062-530",
       endereco: "Rua Álvaro da Silva Labuto",
+      complemento: "",
       numero: 787,
       bairro: "Morada de Camburi",
       cidade: "Vitória",
@@ -51,6 +54,7 @@ export const dataProvider = fakeDataProvider({
       peso: 51,
       tipo_sanguineo: "AB-",
       cor: "vermelho",
+      id: 2,
     },
     {
       nome: "Leandro Vicente Farias",
@@ -66,6 +70,7 @@ export const dataProvider = fakeDataProvider({
       senha: "Ostb5GdLOQ",
       cep: "09071-070",
       endereco: "Rua Aquário",
+      complemento: "",
       numero: 186,
       bairro: "Vila Guiomar",
       cidade: "Santo André",
@@ -76,6 +81,7 @@ export const dataProvider = fakeDataProvider({
       peso: 78,
       tipo_sanguineo: "A+",
       cor: "vermelho",
+      id: 4,
     },
     {
       nome: "Mirella Liz da Mata",
@@ -91,6 +97,7 @@ export const dataProvider = fakeDataProvider({
       senha: "kup32Ba5xM",
       cep: "70655-600",
       endereco: "Quadra SHCES Quadra 611",
+      complemento: "",
       numero: 652,
       bairro: "Cruzeiro Novo",
       cidade: "Brasília",
@@ -101,6 +108,7 @@ export const dataProvider = fakeDataProvider({
       peso: 81,
       tipo_sanguineo: "B-",
       cor: "roxo",
+      id: 5,
     },
     {
       nome: "Nathan João da Costa",
@@ -116,6 +124,7 @@ export const dataProvider = fakeDataProvider({
       senha: "Z8hj7LAoDZ",
       cep: "87035-560",
       endereco: "Avenida das Torres",
+      complemento: "",
       numero: 544,
       bairro: "Parque Industrial 200",
       cidade: "Maringá",
@@ -126,14 +135,49 @@ export const dataProvider = fakeDataProvider({
       peso: 59,
       tipo_sanguineo: "A-",
       cor: "roxo",
+      id: 6,
     },
   ],
-  posts: [
-    { id: 0, title: "Hello, world!" },
-    { id: 1, title: "FooBar" },
-  ],
-  comments: [
-    { id: 0, post_id: 0, author: "John Doe", body: "Sensational!" },
-    { id: 1, post_id: 0, author: "Jane Doe", body: "I agree" },
+  policies: [
+    {
+      idClient: 1,
+      bem: "Carro fulera",
+      garantia: "Cobre até 2K reais em danos",
+      numero: "1321234",
+      diretos:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque nisl eros",
+      deveres:
+        "auctor consequat urna. Morbi a bibendum metus.Donec scelerisque sollicitudin enim eu venenatis. Duis tincidunt ex,in pretium orci vestibulum eget",
+    },
+    {
+      idClient: 2,
+      bem: "playstation 5",
+      garantia: "Em caso de roubo, é ressarcido ",
+      numero: "1321235",
+      diretos:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque nisl eros",
+      deveres:
+        "auctor consequat urna. Morbi a bibendum metus.Donec scelerisque sollicitudin enim eu venenatis. Duis tincidunt ex,in pretium orci vestibulum eget",
+    },
+    {
+      idClient: 4,
+      bem: "Viagem",
+      garantia: "qualquer infornio relacionado à saude",
+      numero: "1321236",
+      diretos:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque nisl eros",
+      deveres:
+        "auctor consequat urna. Morbi a bibendum metus.Donec scelerisque sollicitudin enim eu venenatis. Duis tincidunt ex,in pretium orci vestibulum eget",
+    },
+    {
+      idClient: 4,
+      bem: "residêncial",
+      garantia: "contra furtos",
+      numero: "1321237",
+      diretos:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque nisl eros",
+      deveres:
+        "auctor consequat urna. Morbi a bibendum metus.Donec scelerisque sollicitudin enim eu venenatis. Duis tincidunt ex,in pretium orci vestibulum eget",
+    },
   ],
 });
